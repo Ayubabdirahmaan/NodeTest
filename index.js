@@ -7,6 +7,11 @@ app.get('/todo', (req,res) => {
     res.send('Hello Ayubdheere!')
 })
 
+app.get('/', (req,res) => {
+    res.send('You have new message')
+})
+
+
 app.listen(4000,() => {
     console.log('Server is Runing 4000');
 })
