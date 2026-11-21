@@ -11,6 +11,11 @@ app.get("/", (req, res) => {
   res.send("You have new message");
 });
 
+const people =  [
+  {id:1, name: 'ayub'}
+]
+console.log(people)
+
 app.listen(4000, () => {
   console.log("Server is Runing 4000");
 });
