@@ -12,7 +12,9 @@ app.get("/", (req, res) => {
 });
 
 const people =  [
-  {id:1, name: 'ayub'}
+  {id:1, name: 'ayub'},
+  {id:2, name: 'mohamed'},
+  {id:2, name: 'mohamed'}
 ]
 console.log(people)
 
