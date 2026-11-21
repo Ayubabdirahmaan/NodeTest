@@ -14,7 +14,8 @@ app.get("/", (req, res) => {
 const people =  [
   {id:1, name: 'ayub'},
   {id:2, name: 'mohamed', tell: '9999494'},
-  {id:3, name: 'zamzam', tell: '994322'}
+  {id:3, name: 'zamzam', tell: '994322'},
+  {id:3, name: 'jamac', tell: '9949'},
 ]
 console.log(people)
 
