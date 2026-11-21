@@ -17,7 +17,7 @@ const people =  [
   {id:3, name: 'zamzam', tell: '994322'},
   {id:3, name: 'jamac', tell: '9949'},
 ]
-console.log(people[0])
+console.log(people[1])
 
 app.listen(4000, () => {
   console.log("Server is Runing 4000");
